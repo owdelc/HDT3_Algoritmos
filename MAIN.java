@@ -31,9 +31,13 @@ public class MAIN {
       
       mergeSort ob2 = new mergeSort();
       ob2.Msort(bobeda, 0, bobeda.length -1, 0);
-        System.out.println("Proceso realizado");
-        System.out.println(Arrays.toString(bobeda));
-      
+      System.out.println("Proceso realizado");
+      System.out.println(Arrays.toString(bobeda));
+     
+      quickSort ob3 = new quickSort();
+      ob3.Qsort(bobeda, 0, bobeda.length - 1);
+      System.out.println("Proceso realizado");
+      System.out.println(Arrays.toString(bobeda));
         
     }
     
