@@ -24,13 +24,20 @@ public class MAIN {
      bobeda[i] = ran;
     }
      
-      selectionSort ob = new selectionSort();
-      ob.Ssort(bobeda);
-      System.out.println("proceso realizado");
-      System.err.println(Arrays.toString(bobeda));
+      selectionSort ob1 = new selectionSort();
+      ob1.Ssort(bobeda);
+      System.out.println("Proceso realizado");
+      System.out.println(Arrays.toString(bobeda));
       
+      mergeSort ob2 = new mergeSort();
+      ob2.Msort(bobeda, 0, bobeda.length -1, 0);
+        System.out.println("Proceso realizado");
+        System.out.println(Arrays.toString(bobeda));
       
+        
+    }
+    
      
   }
-}
+
 
